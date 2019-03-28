@@ -1,0 +1,32 @@
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -40px;
+    top: 50%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+  }
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    align-items: center;
+    text-align: center;
+    background: antiquewhite;
+  }
+  
+  .navLinks {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navLinks:hover {
+    color: white;
+  }
